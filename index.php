@@ -8,17 +8,17 @@
         <?php
         echo "Hello world!"
         ?> <br><br>
-        <form id='login' action='login.php' method='post' accept-charset='UTF-8'>
+        <form id='login' action='kirjaudu.php' method='post' accept-charset='UTF-8'>
             <fieldset >
                 <legend>Kirjaudu sisään:</legend>
 
                 <label for='username' >Käyttäjätunnus:</label>
-                <input type='text' name='username' id='username'  maxlength="40" />
+                <input type='text' name='tunnus' id='tunnus'  maxlength="40" />
 
                 <br>
                 
                 <label for='password' >Salasana:</label>
-                <input type='password' name='password' id='password' maxlength="40" />
+                <input type='password' name='salasana' id='salasana' maxlength="40" />
 
                 <br>
                 
